@@ -1,9 +1,9 @@
 //
 //  main.m
-//  CallKitTest
+//  CallKit
 //
-//  Created by 杜洁鹏 on 05/01/2018.
-//  Copyright © 2018 杜洁鹏. All rights reserved.
+//  Created by Dobrinka Tabakova on 9/26/16.
+//  Copyright © 2016 Dobrinka Tabakova. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
