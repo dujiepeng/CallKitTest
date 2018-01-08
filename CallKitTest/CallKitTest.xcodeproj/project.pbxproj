@@ -26,6 +26,7 @@
 		9068DC481FFF5626002C42E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9068DC4A1FFF5626002C42E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9068DC4B1FFF5626002C42E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9068DC531FFF5874002C42E0 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 			children = (
 				9068DC3B1FFF5626002C42E0 /* CallKitTest */,
 				9068DC3A1FFF5626002C42E0 /* Products */,
+				9068DC521FFF5873002C42E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +71,14 @@
 				9068DC4B1FFF5626002C42E0 /* main.m */,
 			);
 			path = CallKitTest;
+			sourceTree = "<group>";
+		};
+		9068DC521FFF5873002C42E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9068DC531FFF5874002C42E0 /* CallKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +113,11 @@
 					9068DC381FFF5626002C42E0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
